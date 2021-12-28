@@ -13,28 +13,28 @@ Different roles and organizatinos and enterprises communicates with the WorkRequ
 
 Main Parts: (Enterprises)
   Selling part:  
-    Organization:  Supplier / SellingStaff / Manufacturer   (one);
-    Roles:               Supplier / SellingStaff / Manufacturer  (multiple number)
+   Organization:  Supplier / SellingStaff / Manufacturer   (one)       
+   Roles:         Supplier / SellingStaff / Manufacturer  (multiple number)
 
   Cafe part:  
-    Organization:    FoodSupplier / Transport / CafeStaff      (one);
-    Roles:                 FoodSupplier / Transport / CafeStaff    (multiple number)
+   Organization:    FoodSupplier / Transport / CafeStaff      (one)   
+   Roles:           FoodSupplier / Transport / CafeStaff    (multiple number)
 
   Coach part:  
-    Organization:    CoachStaff / CoachTrainer    (one)
-    Roles:                 CoachStaff / CoachTrainer   (multiple number)
+   Organization:    CoachStaff / CoachTrainer    (one)  
+   Roles:           CoachStaff / CoachTrainer   (multiple number)
 
   Member part:  
-    Organization:    User     (one)
-    Roles:                 User      (multiple number)
+   Organization:    User     (one)  
+   Roles:           User      (multiple number)
 
 
 
-WorkRequest: 
-  User(order cafe or food) —----> CafeStaff  
-  User(purchase product) —-----> StoreAdmin
-  User(register for Coach)-------->CoachStaff
-  CafeAdmin —----> foodsupplier
-  StoreAdmin(order material and goods)—------> Supplier
-  StoreAdmin(order equipment)—------> Manufacturer
-  CoachStaff(request pro training) ---------> CoachTrainer
+WorkRequest:   
+User(order cafe or food) —----> CafeStaff    
+User(purchase product) —-----> StoreAdmin  
+User(register for Coach)-------->CoachStaff  
+CafeAdmin —----> foodsupplier  
+StoreAdmin(order material and goods)—------> Supplier  
+StoreAdmin(order equipment)—------> Manufacturer  
+CoachStaff(request pro training) ---------> CoachTrainer  
