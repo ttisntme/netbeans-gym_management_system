@@ -13,11 +13,11 @@ Different roles and organizatinos and enterprises communicates with the WorkRequ
 
 Main Parts: (Enterprises)
   Selling part:  
-    Organization:  Supplier / SellingStaff / Manufacturer   (one)
+    Organization:  Supplier / SellingStaff / Manufacturer   (one);
     Roles:               Supplier / SellingStaff / Manufacturer  (multiple number)
 
   Cafe part:  
-    Organization:    FoodSupplier / Transport / CafeStaff      (one)
+    Organization:    FoodSupplier / Transport / CafeStaff      (one);
     Roles:                 FoodSupplier / Transport / CafeStaff    (multiple number)
 
   Coach part:  
